@@ -73,6 +73,7 @@ export default function Page() {
         <div className="mx-auto px-4 md:px-6">
           <FaqSplitMedia 
             title="Frequently Asked Questions"
+            description="Find answers to common questions about our products and services."
             faqs={[
               { id: "1", title: "Do you offer gluten-free options?", content: "Yes, we have a range of gluten-free products available." },
               { id: "2", title: "Can I order online?", content: "Currently, we accept orders in-store only." }
